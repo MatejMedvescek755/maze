@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    background-color: #111111;
+    justify-content: center;
+}
+.display{
+    width: 48vw;
+    height: 50vh;
+    border: 2px solid white;
+    display:flex;
+    flex-direction: row;
+}
+#main{
+    display: flex;
+    align-items: center;    
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.image{
+    height: 50vh;
+    width: 24vw;
+    background-image: url(images/maze.JPG);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+svg{
+    fill:white;
+}
+#title{
+    color:white;
+    height: 25vh;
+    width: 24vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vh;
+    font-weight: 500;
+}
+#text{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vh;
+    font-weight: 500;
+    padding: 30px;
+}
+#button1{
+    height: 5vh;
+    width: 10vw;
+}
+button{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    font-family:courier,arial,helvetica;
+    outline: none;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    height: 5vh;
+    width: 10vw;
+}
+button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.arrow{
+    background-color: rgba(128,128,128,0.1);
+    height:7vh;
+    width: 2vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+#right{
+    padding-left: 0.3vw;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+.arrowLeft{
+    width: 0; 
+    height: 0; 
+    border-top: 1.5vw solid transparent;
+    border-bottom: 1.5vw solid transparent;
+    border-left: 2vw solid rgba(128,128,128,0.3);
+}
+#content-one{
+    padding: 10px;
+    color:white;
+    border:2px solid white;
+    height:48vh;
+    width: 50vw;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: row;
+}
+#content-two{
+    padding: 10px;
+    color:white;
+    border:2px solid white;
+    height:48vh;
+    width: 50vw;
+    border-radius: 1vw;
+    display: none;
+}
+.arrow{
+    background-color: rgba(128,128,128,0.1);
+    height:7vh;
+    width: 2vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+#right{
+    padding-left: 0.3vw;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+#left{
+    padding-right: 0.3vw;;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+#left:hover{
+    opacity:1;
+}
+#right:hover{
+    opacity: 1;
+}
+.arrowRight{
+    width: 0; 
+    height: 0; 
+    border-top: 1.5vw solid transparent;
+    border-bottom: 1.5vw solid transparent; 
+    border-right:2vw solid rgba(128,128,128,0.3);
+}
+#depth-first-search{
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#second{
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    background-color: #111111;
+    height: 70vh;
+    width: 70vw;
+    border:2px solid white;
+    justify-content: center;
+    flex-direction: column;
+}
+.content{
+    width: 24vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    width: 70vw;
+    height: 2vh;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: larger;
+    font-weight: bold;
+}
+#cont{
+    display: flex;
+}
+#size{
+    width: 10vw;
+    height: 5vh;
+    outline: none;
+    padding-left:5px;
+}
+#panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
