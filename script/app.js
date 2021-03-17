@@ -1,7 +1,7 @@
 canvas = document.getElementsByTagName("canvas")[0];
 ctx = canvas.getContext("2d");
-const WIDTH = 600;
-const HEIGHT = 600
+const WIDTH = 500;
+const HEIGHT = 500
 canvas.width = WIDTH;
 canvas.height = HEIGHT;
 
