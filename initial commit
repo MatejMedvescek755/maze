@@ -1,0 +1,21 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   favicon/android-chrome-192x192.png
+#	new file:   favicon/android-chrome-512x512.png
+#	new file:   favicon/apple-touch-icon.png
+#	new file:   favicon/favicon-16x16.png
+#	new file:   favicon/favicon-32x32.png
+#	new file:   favicon/favicon.ico
+#	new file:   favicon/site.webmanifest
+#	new file:   index.html
+#	new file:   script/app.js
+#	new file:   script/script.js
+#	new file:   style.css
+#
